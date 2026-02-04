@@ -129,7 +129,7 @@ export default function CorporateSidebar({ isMobileOpen, closeMobileMenu }) {
               >
                 {item.id === "dashboard" && (
                   <Image 
-                    src="/dashboardside.png" 
+                    src="/dashboard.png" 
                     alt="Dashboard" 
                     width={28} 
                     height={28}
@@ -153,7 +153,7 @@ export default function CorporateSidebar({ isMobileOpen, closeMobileMenu }) {
                 )}
                 {item.id === "reports" && (
                   <Image 
-                    src="/Report.png" 
+                    src="/report.png" 
                     alt="Reports" 
                     width={28} 
                     height={28}
@@ -177,7 +177,7 @@ export default function CorporateSidebar({ isMobileOpen, closeMobileMenu }) {
                 )}
                 {item.id === "settings" && (
                   <Image 
-                    src="/seetings.png" 
+                    src="/settings.png" 
                     alt="Settings" 
                     width={28} 
                     height={28}
