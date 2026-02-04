@@ -77,7 +77,7 @@ export default function RestaurantSidebar() {
       </nav>
 
       {/* Footer card (fixed at bottom) */}
-      <div className="p-4 shrink-0 border-t border-gray-200">
+      <Link href="/restaurant/offers" className="p-4 shrink-0 border-t border-gray-200">
         <div className="rounded-2xl border border-gray-200 bg-gray-50 p-4">
           <div className="text-sm font-semibold">Quick Actions</div>
           <div className="text-xs text-gray-600 mt-1">
@@ -85,13 +85,13 @@ export default function RestaurantSidebar() {
           </div>
 
           <button
-            className="mt-3 w-full rounded-xl border border-gray-200 bg-white py-2 text-sm font-medium hover:bg-gray-50"
+            className="mt-3 w-full rounded-xl border border-gray-200 bg-white py-2 text-sm font-medium hover:bg-gray-50 cursor-pointer"
             type="button"
           >
             Create Offer
           </button>
         </div>
-      </div>
+      </Link>
     </aside>
   );
 }
